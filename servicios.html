@@ -1,67 +1,171 @@
-<div class="row">
-    <div class="col-lg-12 mt-5 mb-4 text-center">
-        <h2 class="text-center mb-4">Servicios</h2>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-            <img class="card-img-top img-fluid" src="img/petcare1.png" alt="Consulta médica">
-            <div class="card-body">
-                <h5 class="card-title">Consultas médicas</h5>
-                <p class="card-text">Ofrecemos consultas médicas para el cuidado y la prevención de enfermedades
-                    en tus mascotas.</p>
-            </div>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETCARE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <style>
+        .jumbotron {
+            background-image: url('img/petcarebg2.png');
+            background-size: cover;
+            background-position: center;
+            height: 45vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-repeat: no-repeat;
+        }
+
+        @media(max-width) {
+            .jumbotron {
+                background-position: right !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: #88827C">
+        <a class="navbar-brand" href="inicio.html"><strong>PETCARE</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="inicio.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="citas.html">Citas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2 class="display-4"><strong>SERVICIOS</strong></h2>
+            <p class="lead">Lo mejor para tu mejor amigo</p>
+            <a class="btn btn-dark btn-lg" href="#" role="button" style="background: #88827C">Agendar</a>
         </div>
     </div>
-    <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-            <img class="card-img-top img-fluid" src="img/petcare2.png" alt="Vacunaciones">
-            <div class="card-body">
-                <h5 class="card-title">Vacunaciones</h5>
-                <p class="card-text">Te ayudamos a mantener a tus mascotas protegidas contra diversas
-                    enfermedades a través de nuestras vacunas.</p>
+
+    <style>
+        body {
+            background-color: #88827C;
+        }
+    </style>
+    <br>
+    <main class="container col-12 bg-white">
+        <br>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="img/petcare1.png" alt="Consulta médica">
+                    <div class="card-body">
+                        <h5 class="card-title">Consultas médicas</h5>
+                        <p class="card-text">Ofrecemos consultas médicas para el cuidado y la prevención de enfermedades
+                            en tus mascotas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="img/petcare2.png" alt="Vacunaciones">
+                    <div class="card-body">
+                        <h5 class="card-title">Vacunaciones</h5>
+                        <p class="card-text">Te ayudamos a mantener a tus mascotas protegidas contra diversas
+                            enfermedades a través de nuestras vacunas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="img/petcare3.png" alt="Cirugías">
+                    <div class="card-body">
+                        <h5 class="card-title">Cirugías</h5>
+                        <p class="card-text">Contamos con un equipo especializado en cirugías para tus mascotas, para
+                            garantizar su bienestar y una pronta recuperación.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="img/petcare4.png" alt="Peluquería">
+                    <div class="card-body">
+                        <h5 class="card-title">Peluquería</h5>
+                        <p class="card-text">Mantén a tus mascotas limpias y con un pelaje saludable a través de
+                            nuestros servicios de peluquería.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="img/petcare5.png" alt="Alimentación">
+                    <div class="card-body">
+                        <h5 class="card-title">Alimentación</h5>
+                        <p class="card-text">Te ofrecemos asesoría para una alimentación adecuada y balanceada para tus
+                            mascotas, según sus necesidades específicas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <img class="card-img-top img-fluid" src="img/petcare6.png" alt="Hospedaje">
+                    <div class="card-body">
+                        <h5 class="card-title">Hospedaje</h5>
+                        <p class="card-text">Si necesitas dejar a tu mascota en un lugar seguro y con atención especial,
+                            contamos con servicios de hospedaje.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-            <img class="card-img-top img-fluid" src="img/petcare3.png" alt="Cirugías">
-            <div class="card-body">
-                <h5 class="card-title">Cirugías</h5>
-                <p class="card-text">Contamos con un equipo especializado en cirugías para tus mascotas, para
-                    garantizar su bienestar y una pronta recuperación.</p>
+    </main>
+    <footer class="text-light py-4" style="background: #88827C">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contáctanos</h3>
+                    <p>Estamos ubicados en la calle Principal #123, Ciudad, País</p>
+                    <p>Teléfono: (123) 456-7890</p>
+                    <p>Email: petcaresupport@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Horario de atención</h3>
+                    <p>Lunes a viernes: 9:00am - 6:00pm</p>
+                    <p>Sábado: 9:00am - 2:00pm</p>
+                    <p>Domingo: Cerrado</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2023 PETCARE. Todos los derechos reservados.</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-            <img class="card-img-top img-fluid" src="img/petcare4.png" alt="Peluquería">
-            <div class="card-body">
-                <h5 class="card-title">Peluquería</h5>
-                <p class="card-text">Mantén a tus mascotas limpias y con un pelaje saludable a través de
-                    nuestros servicios de peluquería.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-            <img class="card-img-top img-fluid" src="img/petcare5.png" alt="Alimentación">
-            <div class="card-body">
-                <h5 class="card-title">Alimentación</h5>
-                <p class="card-text">Te ofrecemos asesoría para una alimentación adecuada y balanceada para tus
-                    mascotas, según sus necesidades específicas.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-md-6 col-lg-4 mb-4">
-        <div class="card h-100">
-            <img class="card-img-top img-fluid" src="img/petcare6.png" alt="Hospedaje">
-            <div class="card-body">
-                <h5 class="card-title">Hospedaje</h5>
-                <p class="card-text">Si necesitas dejar a tu mascota en un lugar seguro y con atención especial,
-                    contamos con servicios de hospedaje.</p>
-            </div>
-        </div>
-    </div>
-</div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.min.js%22%3E><\/script>')</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNSk7xN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
