@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PETCARE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    .jumbotron {
+      background-image: url('img/petcarebg3.png');
+      background-size: cover;
+      background-position: center;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-repeat: no-repeat;
+    }
+
+    @media(max-width) {
+      .jumbotron {
+        background-position: right !important;
+      }
+    }
+  </style>
+  <link rel="icon" href="img/logo.png" type="image/x-icon" sizes="16x16">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background: #FFE4B5">
+    <a class="navbar-brand" href="inicio.html"><strong>&nbsp;PETCARE</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="inicio.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html">Servicios</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="citas.html">Citas</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <h2 class="display-4 text-light"><strong>CITAS</strong></h2>
+      <p class="lead text-light"><strong>Nosotros nos encargamos</strong></p>
+    </div>
+  </div>
+
+  <style>
+    body {
+      background-color: #FFE4B5;
+    }
+  </style>
+  <br>
+
+  <main>
+    <section class="container-fluid my-4 bg-white" style= "background-image:url('img/petcarebg4.png')">
+      <br>
+      <h2 class="text-center col-md-6 col-lg-6">Agendar Cita</h2>
+      <div class="row">
+        <div class="col-md-6 col-lg-6 mb-4 my-5">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-light my-2" style="background: #FFE4B5">Enviar</button>
+          </form>
+        </div>
+        <div class="col-md-6 col-lg-6 mb-4">
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-12">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.2613292301357!2d-0.12801908422979202!3d51.507350479636845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604e73a760b63%3A0x8dd2805a7fc5ca5f!2sBuckingham%20Palace!5e0!3m2!1sen!2suk!4v1646830713359!5m2!1sen!2suk"
+                  width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                  tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <br>
+    </section>
+  </main>
+
+  <footer class="text-dark py-4" style="background: #FFE4B5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Contáctanos</h3>
+          <p>Estamos ubicados en la calle Principal #123, Ciudad, País</p>
+          <p>Teléfono: (123) 456-7890</p>
+          <p>Email: petcaresupport@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <h3>Horario de atención</h3>
+          <p>Lunes a viernes: 9:00am - 6:00pm</p>
+          <p>Sábado: 9:00am - 2:00pm</p>
+          <p>Domingo: Cerrado</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 PETCARE. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.3.1.min.js%22%3E><\/script>')</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNSk7xN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
